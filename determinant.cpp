@@ -1,6 +1,6 @@
 /* 
-Programm calculates determinant of quadratic matrix NxN.
 Ivan Rybin 2019.
+Programm calculates determinant of quadratic matrix NxN.
 */
 #include <iostream>
 #include <iomanip>
