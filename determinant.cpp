@@ -109,7 +109,7 @@ int main() {
         cout << setprecision(3) << fixed;
         cout << "Det(A) = " << round(det) << endl;
         cout << endl;
-        cout << "Matrix after Gauss elimination:" << endl;
+        cout << "Matrix after Gaussian elimination:" << endl;
         ShowMatrix(A);
     }
     return 0;
