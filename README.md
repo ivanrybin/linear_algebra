@@ -13,7 +13,7 @@ some usefull stuff for computations in linear algebra with C++
 
         Det(A) = -2247.000
 
-        Matrix after Gauss elimination:
+        Matrix after Gaussian elimination:
             5.000    3.000    5.000    9.000    0.000
             0.000    7.200    4.000   -4.400    0.000
             0.000    0.000    5.333   -7.667    0.000
