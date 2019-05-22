@@ -1,6 +1,6 @@
 /* 
 Ivan Rybin 2019.
-Programm calculates determinant of quadratic matrix NxN.
+Programm calculates determinant of quadratic matrix NxN with Gaussian elimination (rref).
 */
 #include <iostream>
 #include <iomanip>
