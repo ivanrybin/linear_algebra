@@ -1,8 +1,7 @@
 # linear_algebra
 some usefull stuff for computations in linear algebra with C++
 
-1. Matrix determinant calculator with Gaussian elimination.
-   --------------------Output example----------------------
+1. Matrix determinant calculator with Gaussian elimination. Output example:
 
         Input matrix size n: 5
         Input elements of 5x5 matrix:
@@ -20,5 +19,3 @@ some usefull stuff for computations in linear algebra with C++
             0.000    0.000    5.333   -7.667    0.000
             0.000    0.000    0.000    1.688    0.000
             0.000    0.000    0.000    0.000    6.935
-
-   --------------------------------------------------------
