@@ -23,19 +23,15 @@ vector<vector<double>> InputMatrix(int n) {
 bool ZeroRowColTest(const vector<vector<double>>& A) {
     // zero row (column) test 
     for (int i = 0; i < A.size(); ++i) {
-        int count = 0;
-        for (int j = 0; j < A.size(); ++j)
+        int r_count = 0;
+        int c_count = 0;
+        for (int j = 0; j < A.size(); ++j) {
             if (A[i][j] == 0)
-                count++;
-        if (count == A.size())
-            return true; // det(A) = 0
-    }
-    for (int j = 0; j < A.size(); ++j) {
-        int count = 0;
-        for (int i = 0; i < A.size(); ++i) 
-            if (A[i][j] == 0)
-                count++;
-        if (count == A.size())
+                r_count++;
+            if (A[j][i] == 0)
+                c_count++;
+        }
+        if (r_count == A.size() || c_count == A.size())
             return true; // det(A) = 0
     }
     return false;
@@ -107,7 +103,7 @@ int main() {
         for (int i = 0; i < n; ++i)
             det *= A[i][i];
         cout << setprecision(3) << fixed;
-        cout << "Det(A) = " << round(det) << endl;
+        cout << "Det(A) = " << round(((abs(det) == 0) ? abs(det) : det)) << endl;
         cout << endl;
         cout << "Matrix after Gaussian elimination:" << endl;
         ShowMatrix(A);
