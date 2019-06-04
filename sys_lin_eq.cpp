@@ -162,7 +162,7 @@ int main() {
             cout << "det #" << i + 1 << " = " << setw(12) << right << setprecision(3) << fixed << cramers_dets[i] << "\n";
         cout << "\n";
     }
-    cout << "(A|b) after Gauss elimination:" << "\n";
+    cout << "Augmented matrix (A|b) after Gaussian elimination:" << "\n";
     ShowMatrix(Ab);
     return 0;
 }
