@@ -156,7 +156,7 @@ int main() {
         for (int i = 0; i < cramers_dets.size(); ++i)
             cout << "X" << i + 1 << " = " << setw(12) << right << setprecision(6) << fixed <<(cramers_dets[i] / det_A) << "\n";
         cout << "\n" << "Cramer's rule: Xi = det_i / det(A)" << "\n";
-        cout << "\n" << "Det(A) = " << det_A << "\n";
+        cout << "\n" << "Det(A) = " << setw(12) << right << setprecision(3) << det_A << "\n";
         cout << "\n" << "Cramer's determinants:" << "\n";
         for (int i = 0; i < cramers_dets.size(); ++i)
             cout << "det #" << i + 1 << " = " << setw(12) << right << setprecision(3) << fixed << cramers_dets[i] << "\n";
