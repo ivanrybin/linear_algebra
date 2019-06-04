@@ -51,7 +51,7 @@ some usefull stuff for computations in linear algebra with C++
         det #2 =        5.000
         det #3 =      -15.000
 
-        (A|b) after Gauss elimination:
+        Augmented matrix (A|b) after Gaussian elimination:
            9.000   1.000   0.000   2.391
            0.000   7.222   0.000   0.314
            0.000   0.000  -1.769   0.231
