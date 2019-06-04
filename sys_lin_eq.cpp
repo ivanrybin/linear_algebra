@@ -1,3 +1,7 @@
+/* 
+Ivan Rybin 2019.
+Programm solves system of linear equations.
+*/
 #include <iostream>
 #include <iomanip>
 #include <string>
