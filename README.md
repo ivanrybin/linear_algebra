@@ -55,3 +55,24 @@ some usefull stuff for computations in linear algebra with C++
            9.000   1.000   0.000   2.391
            0.000   7.222   0.000   0.314
            0.000   0.000  -1.769   0.231
+
+3. OLS (Ordinary least squares) for unsolvable systems of linear equations. Output example:
+
+        Input equations number: 4
+        Input variables number (< equations number): 2
+
+        Example of input 4x2 augmented matrix (A|b):
+        a1 a2 b1
+        a3 a4 b2
+        a5 a6 b3
+        a7 a8 b4
+
+        Your input:
+        4 2 8
+        5 2 4
+        2 6 2
+        3 0 8
+
+        The best solution for Ax = b with Ordinary least squares (OLS):
+        X1 =     1.653117
+        X2 =    -0.308943
