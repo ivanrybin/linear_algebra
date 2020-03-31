@@ -1,5 +1,8 @@
-/* Ivan Rybin 2019.
-   Programm finds the best solution for unsolvable system of linear equations, where A (n > m). */
+/* 
+   Ivan Rybin 2019.
+   Programm finds the best solution for unsolvable system of linear equations, 
+   where A (n > m). 
+*/
 #include <iostream>
 #include <iomanip>
 #include <vector>
